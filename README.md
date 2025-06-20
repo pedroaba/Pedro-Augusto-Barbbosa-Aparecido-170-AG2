@@ -1,3 +1,7 @@
+Perfeito! Aqui está um **README.md** pronto para esse projeto Flet de classificação de risco de crédito, com seus dados de identificação, breve descrição, requisitos e instruções claras de execução.
+
+---
+
 # Sistema de Classificação de Risco de Crédito
 
 Este projeto é um sistema inteligente de análise e classificação de risco de crédito, desenvolvido em Python utilizando o framework Flet para a criação de interfaces gráficas modernas.  
@@ -34,5 +38,42 @@ A interface é segmentada em seções, facilitando o preenchimento e compreensã
 
 1. **Clone o repositório do projeto:**
    ```sh
-   git clone https://github.com/seu-usuario/seu-repositorio.git
-   cd seu-repositorio
+   git clone https://github.com/pedroaba/Pedro-Augusto-Barbbosa-Aparecido-170-AG2
+   cd Pedro-Augusto-Barbbosa-Aparecido-170-AG2
+
+
+2. **Crie um ambiente virtual (opcional, mas recomendado):**
+
+   ```sh
+   python -m venv venv
+   source venv/bin/activate  # macOS/Linux
+   venv\Scripts\activate     # Windows
+   ```
+
+3. **Instale as dependências do projeto:**
+
+   ```sh
+   pip install -r requirements.txt
+   ```
+
+   > Caso não exista um arquivo `requirements.txt`, instale manualmente:
+   >
+   > ```sh
+   > pip install flet pandas
+   > ```
+
+4. **Execute o aplicativo:**
+
+   ```sh
+   python main.py
+   ```
+
+   O sistema abrirá uma janela gráfica para utilização.
+
+---
+
+## Observações
+
+* Certifique-se de que o arquivo do banco de dados e o modelo estejam presentes no diretório correto.
+* Caso utilize outro nome para o arquivo principal, ajuste o comando de execução conforme necessário.
+
